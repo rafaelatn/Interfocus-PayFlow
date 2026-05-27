@@ -22,5 +22,3 @@ app.include_router(auth_router)
 app.include_router(order_router)
 
 ## -m uvicorn main:app --reload
-
-## http://localhost:8000/docs

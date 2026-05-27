@@ -1,0 +1,1001 @@
+﻿nome_cliente,valor_inadimplencia,dias_inadimplencia,tipo_risco,regiao
+Benjamim Ferreira,12217.79,195,Crítico,Norte
+Sabrina Peixoto,12064.91,155,Crítico,Oeste
+Gustavo Rodrigues,4358.33,202,Crítico,Leste
+Gabriel Azevedo,732.94,123,Médio,Sul
+Anthony Ribeiro,1213.63,32,Médio,Sul
+Laís Aragão,3902.91,395,Alto,Oeste
+Dra. Cecília Pires,2496.27,225,Alto,Sul
+Hadassa Vieira,1871.92,101,Alto,Sul
+Luana Freitas,1375.98,193,Médio,Leste
+Ana Luiza Casa Grande,1117.33,44,Médio,Sul
+Thiago da Mota,723.32,20,Baixo,Sul
+Enzo Gabriel Siqueira,874.61,59,Médio,Sul
+Dr. Ian Novaes,1130.02,109,Alto,Sul
+Sophia Casa Grande,5443.8,308,Alto,Centro
+Pedro Miguel Souza,746.23,62,Baixo,Norte
+Bruno Correia,8255.26,216,Crítico,Sul
+Catarina Nunes,8896.55,123,Crítico,Centro
+Sr. João Vitor Monteiro,2916.91,173,Alto,Norte
+Nicole Pires,1080.19,64,Médio,Sul
+Sr. Davi Miguel Mendonça,1083.14,50,Médio,Oeste
+Eduarda Nunes,1196.21,215,Alto,Sul
+Olívia Costa,231.42,26,Baixo,Oeste
+Beatriz da Paz,13316.6,104,Crítico,Centro
+Melina Santos,629.64,44,Médio,Sul
+Jade Sampaio,1952.36,132,Alto,Leste
+Enzo Azevedo,714.35,49,Baixo,Leste
+Sr. Thiago Machado,9597.01,45,Crítico,Centro
+Vinícius Novaes,474.54,80,Médio,Norte
+Ana Cecília Barbosa,1490.9,304,Alto,Oeste
+Sra. Lavínia da Conceição,1327.01,97,Médio,Norte
+Arthur Miguel Fonseca,3580.3,169,Alto,Norte
+Juan Azevedo,4288.41,234,Crítico,Norte
+Sra. Olívia Farias,3425.35,144,Alto,Centro
+Pietra da Cruz,2368.85,94,Alto,Centro
+Mateus Rocha,3478.35,55,Alto,Norte
+Natália Moraes,272.57,63,Médio,Leste
+Luan das Neves,2977.08,2,Alto,Oeste
+Yago Leão,11448.93,400,Crítico,Norte
+Pedro Miguel Nunes,714.84,21,Baixo,Leste
+Srta. Kamilly Gonçalves,394.2,45,Baixo,Oeste
+Maria Isis Leão,2845.09,72,Alto,Oeste
+Maria Vitória Fonseca,8239.95,325,Crítico,Norte
+Davi Miguel Abreu,2303.81,190,Alto,Leste
+Caleb Costela,1160.29,61,Médio,Sul
+Luiza Pereira,220.4,23,Baixo,Leste
+Benício Santos,734.55,1,Baixo,Leste
+Catarina Melo,1096.65,68,Médio,Norte
+Isabela Martins,950.9,129,Médio,Centro
+Maria Sophia Monteiro,3666.5,61,Alto,Oeste
+Théo Novaes,624.28,9,Médio,Centro
+Juliana Souza,1403.53,65,Alto,Leste
+Dra. Cecília Abreu,3707.46,104,Alto,Sul
+Vitor Hugo Aragão,8641.26,129,Crítico,Norte
+Fernando Oliveira,564.5,20,Baixo,Oeste
+Arthur Miguel Andrade,764.8,183,Médio,Norte
+Luiz Miguel Siqueira,260.39,3,Baixo,Leste
+Srta. Melina Viana,623.73,15,Baixo,Sul
+Ryan Ramos,1356.12,54,Médio,Leste
+Ravi Farias,10360.0,427,Crítico,Leste
+Bruno Jesus,3979.93,104,Alto,Centro
+Maria Laura Garcia,287.94,12,Baixo,Norte
+Carolina Mendes,1049.98,86,Médio,Centro
+Maria Cecília Guerra,15567.47,515,Crítico,Norte
+Luara Nunes,3071.6,120,Alto,Sul
+Sra. Ana Cecília Costa,1941.7,170,Médio,Oeste
+Cecília da Cruz,1585.17,85,Médio,Oeste
+Benjamin Pacheco,3899.13,113,Alto,Centro
+Rebeca da Luz,6960.06,458,Crítico,Oeste
+Maria Luiza Araújo,225.6,23,Baixo,Norte
+Luísa Lopes,1590.46,63,Médio,Centro
+Stephany Castro,444.54,1,Baixo,Centro
+Diego Moreira,1314.93,177,Alto,Oeste
+Stephany Sá,236.09,16,Baixo,Oeste
+Dra. Manuela Oliveira,263.74,244,Baixo,Leste
+Bianca Rios,4144.56,196,Crítico,Leste
+Henry Gabriel Monteiro,650.04,20,Baixo,Sul
+José Pedro Nogueira,15388.63,208,Crítico,Leste
+Benício Ferreira,577.79,191,Baixo,Leste
+Juliana Casa Grande,9915.12,243,Crítico,Centro
+Letícia Freitas,182.69,7,Baixo,Leste
+José da Cruz,615.12,1,Baixo,Centro
+Maria Vitória Moraes,3323.92,310,Alto,Leste
+Gabriela Martins,3427.55,88,Alto,Sul
+Sr. João Pedro Rocha,520.77,48,Baixo,Oeste
+Dr. Noah Azevedo,1307.5,235,Médio,Oeste
+Lucas Gabriel Vasconcelos,293.78,17,Baixo,Sul
+Daniel Câmara,1017.61,23,Médio,Leste
+Yan Costela,926.17,120,Médio,Centro
+Juliana Carvalho,1120.1,34,Médio,Oeste
+Diego Siqueira,10353.24,321,Crítico,Centro
+Fernanda Caldeira,1220.69,37,Médio,Oeste
+Dra. Manuela Silveira,4457.79,54,Alto,Centro
+Agatha Martins,1847.28,243,Médio,Oeste
+Camila Nunes,1591.2,77,Médio,Sul
+Vitória Andrade,4044.98,97,Alto,Sul
+Maria Clara Silva,1132.47,316,Alto,Centro
+Srta. Pietra Borges,1512.13,106,Alto,Sul
+Thales Oliveira,3224.22,275,Alto,Centro
+Henry Gabriel Pastor,1215.61,42,Médio,Sul
+Rael Macedo,1021.76,90,Médio,Sul
+Cecília Duarte,1522.66,50,Alto,Oeste
+Sr. Antony Costa,1205.26,26,Médio,Centro
+Dr. Luiz Otávio Garcia,343.6,15,Baixo,Oeste
+Gabriel Moreira,1343.73,95,Alto,Leste
+Lunna Melo,1716.33,91,Alto,Leste
+Larissa Rios,32221.85,730,Crítico,Norte
+Carolina Gomes,524.87,55,Médio,Norte
+Ana Liz Moura,5165.66,194,Crítico,Sul
+Rafael da Mata,3506.94,85,Alto,Centro
+João Felipe Albuquerque,6609.91,201,Crítico,Sul
+Lunna Lopes,542.28,130,Baixo,Sul
+Sra. Evelyn Costa,9894.35,136,Crítico,Sul
+Emanuella Marques,594.4,16,Baixo,Norte
+Isabelly da Mata,4295.4,218,Alto,Centro
+Dra. Zoe Vargas,5311.24,494,Crítico,Sul
+João Gabriel Garcia,18713.96,320,Crítico,Leste
+Otto Duarte,803.79,42,Médio,Leste
+João Guilherme Casa Grande,421.99,15,Baixo,Norte
+Gabriel Alves,383.78,2,Baixo,Leste
+Heloisa da Rocha,909.89,6,Baixo,Sul
+Mateus Pastor,1061.23,43,Médio,Centro
+Bárbara Silveira,476.23,5,Baixo,Centro
+Gael Henrique Freitas,675.15,45,Médio,Norte
+Valentim Vasconcelos,9014.47,184,Crítico,Oeste
+Maria Flor Câmara,1094.81,63,Médio,Sul
+Thales Martins,450.23,15,Baixo,Sul
+Valentina Cunha,4331.54,96,Alto,Sul
+Asafe da Mata,1884.29,93,Alto,Sul
+Leonardo Campos,2751.29,190,Crítico,Sul
+Dr. Lorenzo da Costa,747.33,28,Baixo,Centro
+Maria Sophia Brito,1591.43,101,Alto,Oeste
+Otto da Rocha,13444.24,306,Crítico,Leste
+Mariana Peixoto,15097.08,92,Crítico,Centro
+Vitor Rodrigues,1100.23,63,Médio,Oeste
+Lorenzo Garcia,2694.58,189,Alto,Leste
+Sophia Novais,599.64,89,Médio,Oeste
+Lucca Abreu,1564.79,96,Médio,Leste
+João Vitor Alves,3632.34,143,Crítico,Norte
+Ayla Abreu,6282.91,257,Crítico,Oeste
+Maria da Conceição,525.74,5,Baixo,Norte
+Isabelly Andrade,767.58,62,Médio,Sul
+Clara Fogaça,468.94,179,Baixo,Centro
+Gabriela Dias,2685.31,64,Alto,Leste
+João Vitor da Mata,705.37,115,Médio,Oeste
+Mateus Araújo,929.45,194,Médio,Norte
+Dra. Ana Clara Ribeiro,18325.96,265,Crítico,Leste
+Dr. Benício Peixoto,2489.37,248,Alto,Sul
+Diogo Costela,3910.51,121,Alto,Leste
+Sra. Raquel Caldeira,14326.85,399,Crítico,Norte
+Dra. Sofia Pastor,260.02,20,Baixo,Sul
+Rodrigo da Cruz,541.23,31,Baixo,Leste
+Ian Barros,542.07,28,Médio,Norte
+Bento Barros,1129.92,97,Médio,Leste
+Ana Sophia Rios,322.1,33,Baixo,Centro
+Dr. Caio Pinto,787.19,15,Médio,Oeste
+Sophie da Costa,2649.93,165,Alto,Oeste
+Cecília Brito,10152.84,170,Crítico,Oeste
+Dr. Nathan Leão,460.61,27,Baixo,Sul
+Maria Alice Monteiro,506.77,73,Médio,Centro
+Ana Lívia Freitas,877.32,85,Médio,Sul
+Matheus da Paz,2283.65,78,Médio,Leste
+Aylla Siqueira,1553.73,66,Alto,Centro
+João Guilherme Cassiano,3978.77,45,Alto,Sul
+Mathias Correia,1869.72,93,Alto,Oeste
+Dr. Marcos Vinicius Pereira,2479.76,105,Alto,Sul
+Oliver da Cruz,797.56,1,Baixo,Leste
+Sra. Mirella Nascimento,2418.66,177,Alto,Centro
+Ana Cecília Campos,1232.64,11,Médio,Norte
+Sr. Ravi Lucca Fogaça,747.94,162,Baixo,Centro
+Maria Vitória Rezende,1994.69,17,Alto,Oeste
+Liam Castro,1830.66,103,Alto,Norte
+Nina Fonseca,312.49,14,Baixo,Oeste
+Noah Farias,617.05,57,Médio,Leste
+João Vieira,769.7,34,Médio,Leste
+Maria Clara Garcia,802.33,113,Médio,Norte
+Dr. Daniel Macedo,2169.25,51,Alto,Norte
+Danilo da Conceição,1567.9,46,Médio,Oeste
+Emanuella Silva,1590.41,96,Alto,Centro
+Anthony Pacheco,13941.53,225,Crítico,Oeste
+Cecília Correia,2617.4,103,Alto,Leste
+Larissa Cavalcanti,838.82,71,Médio,Norte
+Samuel Almeida,4277.53,23,Crítico,Sul
+Apollo Sá,929.32,54,Médio,Norte
+Lucca Cavalcanti,888.22,49,Médio,Oeste
+Thales Borges,1095.07,61,Médio,Leste
+Luiza Barros,1101.17,37,Médio,Centro
+Bruno da Rosa,6633.37,182,Crítico,Leste
+Eloah Freitas,6039.71,87,Crítico,Centro
+Julia Moraes,7004.44,222,Crítico,Norte
+Esther da Rosa,461.04,10,Médio,Centro
+Emilly Albuquerque,6315.21,408,Crítico,Sul
+Vinicius Oliveira,409.02,26,Baixo,Centro
+Sr. João Vitor da Cunha,1410.79,98,Alto,Norte
+Dr. Bento Gonçalves,338.58,19,Baixo,Sul
+Dra. Ana Liz Nascimento,11210.45,144,Crítico,Sul
+João Vitor Freitas,1181.16,37,Médio,Leste
+Sra. Maria Isis Pires,23145.47,473,Crítico,Sul
+Maria Cecília Duarte,18232.61,378,Crítico,Leste
+Otávio Castro,1649.25,266,Alto,Oeste
+Antônio da Cunha,817.97,129,Alto,Sul
+Thales Sousa,690.18,29,Baixo,Oeste
+Sra. Isabella Gomes,11071.58,499,Crítico,Sul
+Marcela Pastor,5369.9,361,Alto,Oeste
+Benicio Pinto,1666.44,84,Médio,Leste
+Rael Brito,528.77,5,Baixo,Oeste
+João Miguel da Luz,2141.3,136,Alto,Leste
+Leandro Gomes,494.81,100,Médio,Sul
+Larissa Sampaio,11527.84,203,Crítico,Sul
+Sr. Ravi Moraes,1305.78,74,Médio,Norte
+Maria Sophia Ramos,785.07,38,Médio,Oeste
+Ana Beatriz Nunes,2850.52,325,Alto,Sul
+Srta. Sophie Porto,4156.17,201,Crítico,Centro
+Olivia Azevedo,1909.37,51,Alto,Leste
+Noah Cavalcanti,3171.3,268,Alto,Norte
+Vitor Sousa,431.35,94,Médio,Sul
+João Lucas Duarte,2827.11,95,Alto,Centro
+Brenda Azevedo,250.7,22,Baixo,Leste
+Bianca Oliveira,1690.22,35,Médio,Leste
+Paulo Pereira,745.5,25,Baixo,Centro
+Enzo Gabriel Silveira,1553.58,74,Médio,Centro
+Cauã Nunes,4618.64,143,Crítico,Sul
+Ísis da Cunha,662.8,172,Médio,Centro
+Dr. João Guilherme Garcia,2260.93,151,Alto,Sul
+Luana Almeida,214.89,9,Baixo,Leste
+Agatha Cavalcante,7689.67,335,Crítico,Oeste
+Hadassa Albuquerque,1770.07,36,Alto,Leste
+Yuri da Mota,740.98,100,Médio,Sul
+Yan Lima,734.92,105,Alto,Norte
+Arthur da Luz,1302.75,153,Alto,Sul
+Luiz Fernando das Neves,6388.78,184,Crítico,Oeste
+Luiza Gomes,246.3,19,Baixo,Centro
+Dr. Luan Alves,1617.6,39,Médio,Centro
+Vitória Pacheco,3009.91,202,Crítico,Centro
+Sr. Augusto Pimenta,1331.59,165,Médio,Oeste
+Laura Macedo,14746.26,304,Crítico,Leste
+Maya Vargas,6894.99,249,Crítico,Centro
+Ravy Casa Grande,14940.6,289,Crítico,Sul
+José Pedro Andrade,214.16,23,Baixo,Oeste
+Olívia da Luz,411.83,21,Baixo,Oeste
+Juan Caldeira,1848.46,212,Médio,Oeste
+Lívia Duarte,1643.24,109,Alto,Oeste
+Arthur Teixeira,4803.82,313,Alto,Sul
+Josué Camargo,216.31,129,Baixo,Oeste
+Bianca Pastor,3491.41,101,Alto,Sul
+Eloah Sousa,966.18,45,Médio,Leste
+Cecília da Conceição,500.53,50,Baixo,Leste
+Ana Carolina Machado,3547.87,238,Crítico,Norte
+João Gabriel Pinto,2974.24,180,Alto,Centro
+Pietra Rezende,1503.41,60,Alto,Centro
+Francisco Teixeira,1707.25,80,Alto,Centro
+Guilherme Viana,885.22,26,Baixo,Leste
+Sabrina Brito,6028.51,289,Crítico,Leste
+Dr. Lucas Pires,602.82,116,Médio,Sul
+Matheus Martins,808.93,36,Médio,Norte
+Sr. Enrico das Neves,995.2,129,Alto,Norte
+Arthur Gabriel Vasconcelos,1382.13,74,Alto,Sul
+Maria Melo,833.73,28,Baixo,Sul
+Luiz Otávio Leão,1903.5,43,Alto,Leste
+André Correia,1347.77,214,Alto,Sul
+Arthur Porto,317.53,28,Baixo,Norte
+Matteo Pires,1293.08,99,Médio,Leste
+Maria Júlia Vargas,3661.19,138,Crítico,Centro
+Francisco Silva,576.6,9,Baixo,Oeste
+Lorenzo Andrade,2039.53,232,Médio,Oeste
+Matteo Pereira,1002.37,49,Médio,Leste
+Eloah Casa Grande,420.15,28,Baixo,Sul
+Elisa da Mota,1750.75,253,Médio,Oeste
+Raquel Siqueira,899.94,85,Médio,Centro
+Josué da Costa,2000.22,127,Alto,Oeste
+Felipe Guerra,4708.42,326,Alto,Oeste
+Agatha Mendonça,8522.49,346,Crítico,Leste
+Yan Nunes,370.38,30,Baixo,Centro
+Francisco Costela,820.27,71,Médio,Oeste
+Hellena Azevedo,8263.15,163,Crítico,Oeste
+Liam Nunes,4861.69,99,Alto,Norte
+Levi Viana,503.55,17,Baixo,Leste
+Dr. Miguel Costa,531.46,60,Baixo,Leste
+Sophia Oliveira,613.74,10,Baixo,Sul
+Maria Helena Castro,921.11,105,Alto,Centro
+Ester Araújo,533.07,16,Médio,Norte
+Ana Cecília Gonçalves,3105.51,44,Alto,Oeste
+Luana Moreira,2325.5,152,Alto,Leste
+Ryan Caldeira,293.86,16,Baixo,Sul
+Valentina Vieira,2588.2,96,Alto,Sul
+Jade Nunes,519.66,49,Baixo,Centro
+Renan Lima,2787.63,146,Alto,Sul
+Ana Laura Cavalcanti,266.39,8,Baixo,Leste
+Ravy Albuquerque,1763.64,97,Crítico,Norte
+Matheus Barros,2063.34,252,Alto,Leste
+Maria Clara Correia,2229.09,120,Alto,Leste
+Maysa Marques,32501.71,696,Crítico,Sul
+Enzo Gabriel da Costa,572.52,144,Médio,Sul
+Ian Teixeira,2799.31,109,Alto,Leste
+João Guilherme Andrade,4370.95,108,Crítico,Norte
+Maria Farias,4044.61,509,Alto,Sul
+Dr. Luigi Siqueira,965.87,27,Alto,Norte
+Cecilia da Rosa,41254.77,730,Crítico,Leste
+Lorena Vasconcelos,8761.98,199,Crítico,Norte
+Isaque Pimenta,726.69,173,Médio,Centro
+Isabel Machado,406.73,5,Baixo,Sul
+Lorena Cardoso,765.78,49,Baixo,Centro
+João Pedro Lima,575.77,163,Médio,Sul
+Isadora Gomes,4462.11,103,Crítico,Leste
+Luana Fonseca,3868.33,38,Alto,Norte
+Nathan Silva,1037.46,155,Alto,Leste
+Valentim Araújo,941.54,49,Médio,Leste
+Davi Miguel da Conceição,1547.23,172,Médio,Leste
+Danilo da Paz,150.08,9,Baixo,Centro
+Joaquim Castro,736.37,46,Baixo,Leste
+Luan Melo,22058.65,414,Crítico,Centro
+Alana Gomes,416.25,218,Baixo,Sul
+Gustavo Martins,14161.84,302,Crítico,Leste
+Anthony Rezende,575.58,64,Médio,Leste
+Isadora Camargo,324.15,10,Baixo,Leste
+Rael Viana,606.28,149,Médio,Sul
+Julia Moraes,376.53,26,Baixo,Leste
+Dra. Maria Luísa Carvalho,1557.09,169,Médio,Norte
+Pedro Henrique Albuquerque,372.12,45,Médio,Leste
+Dr. Ravy Novaes,743.19,70,Baixo,Leste
+Luiz Gustavo Albuquerque,579.59,52,Médio,Centro
+Luiz Felipe Borges,51231.59,730,Crítico,Sul
+Sabrina Costela,1463.08,147,Alto,Sul
+Ryan Gonçalves,8779.95,449,Crítico,Leste
+Rebeca Abreu,891.48,41,Alto,Centro
+Mariane Oliveira,276.14,25,Baixo,Sul
+Lunna Cavalcante,337.53,5,Baixo,Oeste
+Igor Freitas,9895.88,139,Crítico,Sul
+Theo Rezende,1027.81,219,Médio,Centro
+Milena Pimenta,359.31,24,Baixo,Centro
+Srta. Mariane da Cunha,1099.45,49,Alto,Norte
+Thales Freitas,765.3,25,Baixo,Leste
+Elisa Sousa,3694.34,223,Alto,Centro
+João Pedro Duarte,1172.74,78,Médio,Oeste
+Caio Pires,18453.28,597,Crítico,Leste
+Sra. Maria Laura Castro,4094.02,8,Crítico,Sul
+Eduarda Silveira,1989.81,104,Crítico,Norte
+Caroline Moreira,4285.64,58,Crítico,Centro
+Mirella Fonseca,11795.58,399,Crítico,Sul
+Lucas Pimenta,505.58,17,Baixo,Oeste
+Lunna Almeida,347.56,8,Baixo,Oeste
+Luiz Fernando Vargas,5048.37,206,Crítico,Oeste
+Alexia Casa Grande,1032.2,345,Alto,Centro
+Thales Vasconcelos,359.43,12,Baixo,Leste
+Milena Macedo,670.39,23,Médio,Sul
+Alexia Cirino,1403.62,145,Alto,Centro
+Josué Aparecida,17999.62,353,Crítico,Sul
+José Pedro Peixoto,4355.91,120,Alto,Oeste
+Matheus Caldeira,1280.24,62,Médio,Sul
+Laís Marques,2388.71,227,Alto,Sul
+Arthur Garcia,390.33,150,Médio,Norte
+Sra. Lara Melo,3940.45,298,Crítico,Norte
+Joaquim Pimenta,1043.21,53,Médio,Sul
+Isabelly Barbosa,698.94,72,Médio,Leste
+Lunna Vieira,1429.24,153,Médio,Sul
+Isabel Andrade,1213.7,354,Alto,Sul
+Samuel Correia,478.58,11,Médio,Leste
+Alexia Aragão,1258.34,24,Baixo,Oeste
+Dr. Calebe Nascimento,738.27,29,Médio,Oeste
+Maitê Souza,898.55,137,Médio,Norte
+Ana Liz Rodrigues,3706.74,338,Alto,Sul
+Dr. Alexandre da Mata,559.33,16,Médio,Leste
+Ravi Lucca Vasconcelos,8783.25,170,Crítico,Sul
+Nicolas Nunes,1586.93,18,Alto,Oeste
+Sr. Ian Macedo,877.11,61,Médio,Oeste
+Daniel Rodrigues,8252.34,520,Alto,Leste
+Fernanda Novais,2987.0,79,Alto,Leste
+Ana Beatriz Vargas,1724.33,113,Alto,Leste
+Luna Cirino,820.41,32,Baixo,Leste
+Clara Moura,908.16,26,Médio,Norte
+Bento Monteiro,5128.04,327,Alto,Leste
+Henry Gabriel Siqueira,1336.87,43,Médio,Oeste
+Hadassa Lima,1445.96,32,Alto,Sul
+Bernardo Freitas,371.79,69,Baixo,Leste
+Dr. José Pedro da Paz,659.35,67,Baixo,Centro
+Sr. João Miguel Siqueira,13998.75,414,Crítico,Oeste
+Esther Gonçalves,2550.47,186,Crítico,Norte
+Dr. Bernardo Martins,6381.39,200,Crítico,Centro
+Lunna Aparecida,9386.52,287,Crítico,Sul
+Vitor Nascimento,431.32,125,Médio,Norte
+Dra. Milena Sampaio,3030.74,53,Alto,Leste
+Bella Rocha,423.84,8,Médio,Norte
+Stephany Sá,1916.1,117,Alto,Centro
+Carolina Lopes,37003.15,701,Crítico,Sul
+Emanuel Mendes,8072.01,314,Crítico,Sul
+Thomas Rios,829.96,16,Médio,Sul
+Ana Beatriz Fernandes,2959.36,151,Alto,Leste
+Ana Cecília Dias,2030.14,132,Alto,Oeste
+Eloá Pastor,1349.91,119,Médio,Sul
+Luiz Felipe Monteiro,1378.49,84,Alto,Norte
+Bruna da Mata,7680.12,150,Crítico,Centro
+Mathias da Paz,4211.29,393,Alto,Oeste
+Brenda Fernandes,285.88,15,Baixo,Centro
+Manuela Rodrigues,603.08,5,Baixo,Leste
+Davi Lucas Guerra,562.32,73,Baixo,Oeste
+Lucas Nogueira,698.31,53,Médio,Sul
+Sr. Thales Aragão,817.6,128,Médio,Oeste
+Mariane Leão,391.19,25,Baixo,Leste
+Otávio Lopes,1649.69,159,Médio,Sul
+Dra. Eloah Marques,609.34,8,Baixo,Norte
+Olivia Leão,520.08,26,Baixo,Norte
+Sra. Aylla das Neves,2091.05,78,Alto,Leste
+Cecília Porto,1398.83,44,Alto,Oeste
+Sr. Benício Sousa,278.2,3,Baixo,Sul
+Srta. Allana da Cruz,2456.94,259,Alto,Sul
+Caio Azevedo,831.99,59,Médio,Centro
+Joaquim Moreira,420.75,24,Baixo,Sul
+Mateus Ferreira,1513.37,137,Médio,Oeste
+Ágatha Teixeira,629.48,10,Baixo,Sul
+Theo Duarte,7488.81,114,Crítico,Sul
+Mariane Vasconcelos,618.95,3,Baixo,Leste
+Sra. Maria Clara Souza,1441.06,298,Médio,Centro
+Raul Costela,2066.0,111,Alto,Leste
+Sr. Diogo Castro,4508.54,193,Alto,Oeste
+Erick Martins,1346.15,85,Médio,Norte
+Sr. Joaquim Cardoso,2316.75,49,Alto,Sul
+Isabel Nunes,3333.07,95,Alto,Norte
+Emanuelly Pacheco,2257.86,45,Médio,Oeste
+Lorenzo Siqueira,5443.0,193,Crítico,Sul
+Dr. Arthur Gabriel Souza,13822.7,308,Crítico,Centro
+Ágatha Guerra,5133.03,426,Alto,Norte
+Dr. Carlos Eduardo Cirino,582.44,51,Médio,Sul
+Benício Novais,877.59,51,Alto,Oeste
+Yuri Camargo,3109.29,125,Alto,Oeste
+Cauã Silva,3216.7,142,Alto,Sul
+Enrico Nogueira,11829.99,504,Crítico,Sul
+Gustavo Costela,1902.42,146,Crítico,Centro
+Joaquim Pimenta,3665.5,66,Alto,Oeste
+Maria Luísa Peixoto,218.86,28,Baixo,Sul
+Dra. Maria das Neves,8849.19,257,Crítico,Leste
+Josué Vieira,1618.24,90,Médio,Leste
+Marcelo Costa,3083.16,299,Alto,Norte
+Ana Vitória Cavalcanti,2209.74,194,Alto,Sul
+Luiz Fernando Costela,1272.15,35,Médio,Sul
+Dr. Felipe Carvalho,3296.3,334,Alto,Leste
+João Pedro Fogaça,519.39,10,Baixo,Norte
+Benicio Moraes,877.07,4,Médio,Sul
+Gael Fogaça,587.95,103,Baixo,Oeste
+Rafael Ramos,11031.32,352,Crítico,Centro
+Cecília Mendes,1557.32,73,Médio,Oeste
+Noah Mendonça,2620.63,240,Alto,Oeste
+Julia Dias,1773.72,81,Médio,Centro
+Sophie Duarte,2386.82,114,Alto,Leste
+Sra. Fernanda Cavalcanti,1801.26,253,Médio,Sul
+Pedro Miguel Alves,1197.99,98,Médio,Leste
+Heloísa Rocha,857.38,63,Médio,Leste
+Joaquim Borges,726.39,264,Baixo,Norte
+José Pedro Macedo,263.61,62,Baixo,Norte
+Laís da Luz,550.88,81,Médio,Oeste
+Luna Moreira,6153.67,252,Crítico,Centro
+Emanuel Ribeiro,550.72,18,Médio,Leste
+Liz Caldeira,1213.1,113,Alto,Sul
+Dr. Asafe da Mota,2790.91,263,Alto,Centro
+Agatha Machado,3506.24,137,Crítico,Norte
+Zoe Guerra,5310.66,203,Crítico,Norte
+Thomas Castro,589.65,7,Baixo,Leste
+Ísis Rocha,1799.26,83,Médio,Norte
+Antonella Vieira,3792.29,11,Alto,Norte
+Sra. Joana Fogaça,10030.35,139,Crítico,Sul
+Breno Cavalcante,473.42,99,Médio,Norte
+Brayan Nogueira,2419.78,113,Alto,Oeste
+Alana da Cruz,1242.87,150,Médio,Oeste
+Dr. Caio Garcia,6343.19,52,Crítico,Oeste
+Pietro Ferreira,4940.86,222,Crítico,Oeste
+Stephany da Mata,3793.37,198,Alto,Oeste
+Rael Guerra,841.23,56,Médio,Centro
+Davi Miguel Brito,1207.4,134,Médio,Leste
+Isis Rios,6884.78,200,Crítico,Centro
+Bella Camargo,2904.41,100,Alto,Leste
+Elisa da Conceição,266.42,6,Baixo,Centro
+Guilherme Lima,1514.71,61,Médio,Norte
+Rael Cavalcante,1685.38,181,Alto,Centro
+Antonella Brito,2360.26,81,Alto,Sul
+Dante Carvalho,3090.88,42,Alto,Leste
+Enzo Gabriel Cunha,887.42,76,Médio,Centro
+Francisco Costela,1575.93,76,Médio,Sul
+Luiz Fernando Silveira,737.24,48,Médio,Norte
+Lucca Aparecida,1652.13,134,Alto,Centro
+Allana Albuquerque,701.0,89,Médio,Sul
+Sra. Manuela da Cunha,12186.92,196,Crítico,Leste
+Natália Sousa,866.78,24,Médio,Centro
+Thiago Farias,2059.63,77,Médio,Sul
+Heloisa Vasconcelos,1171.11,48,Médio,Leste
+Srta. Ana Carolina Pacheco,745.79,106,Médio,Norte
+Sr. Pedro Nascimento,1049.31,64,Médio,Norte
+Ana Sophia da Rocha,258.39,117,Baixo,Norte
+Rhavi Souza,1178.23,197,Alto,Oeste
+Dra. Nicole Moraes,1380.06,22,Médio,Sul
+Arthur Miguel Rocha,534.12,5,Baixo,Oeste
+Miguel Câmara,2494.19,215,Alto,Centro
+Melissa Montenegro,1951.39,96,Alto,Sul
+Mirella da Rosa,2313.32,78,Alto,Leste
+Srta. Allana Rocha,1433.76,124,Alto,Leste
+Srta. Sophia Rodrigues,1663.78,75,Médio,Norte
+Leonardo Fogaça,581.31,9,Baixo,Oeste
+Cecília Pimenta,4238.89,189,Alto,Leste
+Asafe Albuquerque,1012.89,5,Baixo,Leste
+João Gabriel Pacheco,2464.73,193,Alto,Centro
+João Felipe Borges,556.07,27,Baixo,Sul
+Srta. Liz Silva,1232.44,279,Alto,Leste
+Mirella Cardoso,488.06,24,Médio,Sul
+Ana Sophia Souza,946.7,19,Baixo,Centro
+Hellena Ramos,554.85,40,Médio,Oeste
+Giovanna Nunes,2737.51,221,Alto,Centro
+Alice Almeida,5823.93,281,Alto,Centro
+Maria Alice Silva,2525.93,238,Alto,Centro
+Sra. Rebeca Cardoso,392.38,70,Baixo,Sul
+Dr. Raul Andrade,1262.47,100,Médio,Sul
+Sra. Maysa Azevedo,1297.12,23,Alto,Oeste
+Sr. Apollo Novaes,8777.94,255,Crítico,Sul
+Marcelo Moura,3321.16,39,Alto,Leste
+Bernardo Caldeira,5440.75,174,Crítico,Oeste
+Benjamin Ramos,4311.16,187,Alto,Centro
+Juliana Monteiro,896.5,17,Baixo,Oeste
+Sra. Maria Julia Dias,11508.34,147,Crítico,Oeste
+Gael Vieira,1334.31,48,Alto,Centro
+Isaac Caldeira,2881.66,170,Alto,Sul
+Valentina Ribeiro,2896.4,129,Alto,Leste
+Alexia Rodrigues,3380.81,33,Crítico,Oeste
+Arthur Gabriel Araújo,984.54,65,Médio,Oeste
+Pedro Henrique Porto,1559.9,42,Médio,Sul
+Felipe Rodrigues,1053.49,55,Médio,Oeste
+Juliana Brito,15705.97,266,Crítico,Oeste
+Srta. Luara Nunes,12620.77,262,Crítico,Oeste
+Mariana Moura,384.01,68,Baixo,Oeste
+Hellena da Rosa,249.32,14,Baixo,Oeste
+Sra. Liz Santos,1905.89,192,Médio,Oeste
+Dr. Asafe Mendes,401.1,13,Baixo,Oeste
+Isabel Cavalcanti,2499.11,114,Alto,Oeste
+João Guilherme Abreu,2621.76,109,Alto,Centro
+Esther Castro,1321.4,52,Alto,Leste
+Maria Costela,11305.68,299,Crítico,Leste
+Bento Leão,316.75,7,Baixo,Norte
+Mariana Gonçalves,534.2,25,Baixo,Leste
+Dra. Eloah Viana,849.37,5,Baixo,Centro
+Lorenzo Nascimento,3233.89,73,Alto,Norte
+Esther Gomes,3310.69,41,Crítico,Sul
+Sofia Silva,1076.8,52,Médio,Norte
+Srta. Ana Júlia Barbosa,3958.11,44,Crítico,Leste
+Ester Fonseca,1375.21,18,Médio,Leste
+Aylla Duarte,915.83,11,Baixo,Norte
+Bianca Viana,1294.2,129,Alto,Sul
+Thiago das Neves,348.5,30,Baixo,Centro
+Renan Campos,2252.58,16,Alto,Norte
+Lorenzo Peixoto,2534.6,174,Alto,Oeste
+Fernando Caldeira,480.13,136,Médio,Leste
+Rhavi Gomes,1075.75,64,Alto,Leste
+Sra. Clarice Novaes,1230.48,60,Médio,Leste
+Rafael Marques,2994.71,316,Crítico,Centro
+Alice Porto,784.42,83,Médio,Oeste
+Ana Julia Freitas,2341.39,99,Crítico,Centro
+Alana Ramos,1198.62,224,Alto,Centro
+João Guilherme Pinto,4030.13,213,Alto,Leste
+Maria Flor Souza,1244.99,161,Médio,Sul
+Benício Moraes,2656.33,154,Alto,Sul
+Thiago Cardoso,1218.95,26,Médio,Centro
+Dr. Matteo Correia,711.81,16,Baixo,Oeste
+Bella Martins,637.57,14,Baixo,Oeste
+Clara Sá,1206.58,50,Médio,Leste
+Luiz Otávio da Luz,416.05,169,Médio,Sul
+Sr. Otto Cavalcante,1165.45,41,Médio,Norte
+Evelyn Viana,653.87,21,Baixo,Sul
+Stella Pimenta,588.03,26,Baixo,Sul
+Laís Rezende,405.14,3,Baixo,Centro
+Oliver Castro,2591.62,90,Alto,Leste
+Srta. Letícia Mendes,1540.89,96,Médio,Leste
+Stephany Pereira,4245.95,189,Alto,Sul
+Ana Sophia Novaes,804.38,25,Baixo,Centro
+Luara Pinto,2140.67,458,Médio,Leste
+Liz Costa,1951.94,54,Alto,Sul
+Luara Nogueira,3102.86,304,Alto,Centro
+Enrico das Neves,392.1,68,Baixo,Norte
+Kevin Fonseca,1845.95,159,Médio,Centro
+Calebe da Costa,5777.01,383,Crítico,Leste
+Srta. Antonella Cunha,1695.09,222,Médio,Oeste
+Sr. Luiz Fernando Mendes,4768.37,357,Alto,Sul
+Dra. Maria Júlia da Luz,2640.74,156,Alto,Sul
+Dr. Cauã Martins,4074.44,92,Crítico,Sul
+Maria Liz Porto,1157.32,39,Médio,Sul
+Sra. Ana Cecília Machado,2924.51,192,Alto,Centro
+Joaquim Cavalcanti,10029.9,275,Crítico,Sul
+Augusto Campos,1579.46,33,Médio,Centro
+Henry Vasconcelos,1372.01,38,Alto,Norte
+Dra. Emanuella da Rocha,4712.63,211,Alto,Oeste
+Danilo Moreira,1038.92,6,Médio,Oeste
+Lorenzo Ramos,400.7,11,Baixo,Sul
+Maria Fernanda Gonçalves,649.98,1,Baixo,Oeste
+José Pedro Ribeiro,6358.87,227,Crítico,Sul
+Maitê Silva,1695.37,89,Alto,Norte
+Laís Fonseca,635.58,2,Baixo,Oeste
+Maria Helena Silveira,3413.0,71,Alto,Leste
+Carlos Eduardo Ribeiro,362.74,30,Baixo,Oeste
+Dr. Ravi Cavalcanti,1773.87,80,Médio,Centro
+Liam Campos,4397.41,121,Alto,Oeste
+Anna Liz Cunha,20160.0,421,Crítico,Sul
+Mariane Gonçalves,302.34,16,Baixo,Sul
+Dra. Ana Júlia Melo,342.94,20,Baixo,Leste
+Raquel Abreu,680.25,144,Baixo,Centro
+Vitor Hugo Andrade,1366.94,40,Médio,Oeste
+Valentim Almeida,2761.28,338,Alto,Sul
+Olívia Albuquerque,2404.51,203,Alto,Leste
+Sabrina Azevedo,344.58,5,Baixo,Norte
+Isabel Almeida,1592.03,114,Médio,Leste
+Sr. Fernando Casa Grande,481.2,15,Baixo,Norte
+Manuela Rodrigues,262.04,10,Baixo,Sul
+Davi Miguel Pinto,185.78,4,Baixo,Centro
+Laís Rezende,747.88,61,Médio,Centro
+Antônio Montenegro,513.43,3,Baixo,Norte
+Sra. Alícia Melo,1000.71,80,Médio,Sul
+Dra. Olivia Leão,7769.67,120,Crítico,Oeste
+Ester Cirino,1369.18,65,Médio,Sul
+Júlia da Cruz,23610.7,558,Crítico,Leste
+Aurora Camargo,5844.33,222,Crítico,Norte
+Henry Gabriel Vasconcelos,452.01,22,Baixo,Oeste
+Luiz Gustavo da Rosa,840.35,502,Médio,Centro
+Thales Pastor,655.26,50,Baixo,Leste
+Isaac Monteiro,309.64,2,Baixo,Centro
+Luigi Melo,2464.29,32,Alto,Centro
+Henry Mendes,772.9,18,Baixo,Sul
+Dr. Enrico Fonseca,453.37,25,Baixo,Leste
+Beatriz das Neves,1194.31,187,Alto,Sul
+Ísis da Paz,6965.36,265,Crítico,Sul
+Luísa da Rosa,1368.83,55,Médio,Centro
+José Pedro Sampaio,535.56,18,Baixo,Sul
+Sr. Arthur Miguel Teixeira,1076.92,85,Médio,Centro
+Davi Lucca Rodrigues,2805.88,34,Alto,Leste
+Cecília da Luz,2017.02,74,Médio,Sul
+Júlia Fonseca,551.64,8,Baixo,Oeste
+Samuel Pinto,5650.0,96,Crítico,Sul
+Cecília Albuquerque,1473.12,220,Médio,Norte
+Eloah Sá,1000.91,117,Baixo,Sul
+Bryan Castro,3394.34,124,Alto,Oeste
+Benjamim Silveira,1962.08,210,Alto,Norte
+Ayla da Luz,3438.19,43,Alto,Centro
+Mateus Sales,421.06,69,Baixo,Oeste
+Srta. Manuella Sousa,556.19,76,Baixo,Oeste
+Clara Albuquerque,2175.13,106,Alto,Leste
+Emanuella da Conceição,4408.12,244,Crítico,Norte
+Breno Cirino,661.69,47,Baixo,Leste
+Bernardo Cavalcanti,260.85,27,Baixo,Sul
+Maria Vitória Cunha,2512.7,110,Alto,Leste
+Ana Beatriz da Rocha,566.19,33,Médio,Leste
+Erick Novaes,1248.24,63,Médio,Oeste
+Mirella Sampaio,589.83,56,Médio,Centro
+Benicio Aparecida,4488.94,264,Alto,Leste
+Theodoro Nascimento,2602.43,150,Alto,Norte
+Alice Cassiano,1520.54,134,Médio,Sul
+Dr. Liam Santos,239.24,49,Baixo,Sul
+Daniela Araújo,11207.52,252,Crítico,Sul
+Maria Isis Araújo,18093.99,399,Crítico,Norte
+Dr. Antony Castro,5643.44,100,Crítico,Leste
+Pietro Brito,1359.43,33,Médio,Centro
+Lorena Nascimento,651.37,42,Baixo,Leste
+Alana Costa,3742.14,146,Alto,Centro
+Raquel Costa,1165.94,32,Alto,Leste
+Júlia Macedo,247.51,14,Baixo,Norte
+Allana Cirino,1211.97,176,Alto,Leste
+João Miguel Castro,2982.77,216,Alto,Norte
+Dra. Maria Isis Sampaio,4841.66,284,Alto,Leste
+Josué Peixoto,672.88,117,Médio,Sul
+Luiz Fernando Novaes,10408.43,290,Crítico,Sul
+Ana Sophia Rocha,2893.78,318,Alto,Centro
+Laura Porto,897.31,13,Baixo,Norte
+Sarah Melo,1154.36,34,Alto,Leste
+Caroline Montenegro,354.49,11,Baixo,Centro
+Bella Cardoso,455.82,70,Médio,Oeste
+Dr. Luiz Felipe Siqueira,2084.14,58,Alto,Leste
+Luiz Felipe da Luz,1725.9,64,Alto,Sul
+Erick Souza,1111.74,205,Alto,Norte
+Dra. Sabrina Rezende,534.34,97,Médio,Leste
+Evelyn Silva,834.89,25,Médio,Centro
+Mariah Sampaio,2435.43,243,Alto,Norte
+Dr. Arthur Aragão,8472.05,422,Crítico,Sul
+Alícia Abreu,852.83,1,Baixo,Sul
+Laís Barros,1355.83,19,Médio,Leste
+Eloah Farias,807.08,180,Médio,Oeste
+Luiza Nunes,748.76,169,Médio,Sul
+Srta. Agatha Marques,2719.75,39,Alto,Sul
+Nicolas da Mata,3072.03,148,Alto,Oeste
+Zoe Martins,4195.09,268,Crítico,Oeste
+Gustavo Henrique Sá,1041.97,73,Médio,Oeste
+Rael Montenegro,736.74,13,Baixo,Sul
+Luiz Miguel Sá,7212.52,190,Crítico,Centro
+Sra. Letícia da Paz,5554.0,140,Crítico,Sul
+Antonella Costela,838.86,46,Médio,Sul
+Alexia Castro,1626.19,296,Alto,Leste
+Laís Montenegro,11722.64,162,Crítico,Centro
+Clara Cavalcanti,1718.7,9,Médio,Centro
+Bento Almeida,1746.76,60,Alto,Oeste
+Srta. Ana Vitória Albuquerque,989.86,123,Alto,Sul
+Theo Aragão,822.7,57,Médio,Sul
+Yuri Dias,162.44,5,Baixo,Oeste
+Larissa Andrade,7853.03,151,Crítico,Norte
+Gabriel Duarte,3210.18,93,Alto,Centro
+Catarina Pinto,10390.76,199,Crítico,Sul
+Hellena Souza,2313.72,52,Alto,Centro
+Dra. Milena Rios,6214.34,209,Crítico,Norte
+Sr. Igor da Mota,2739.89,198,Alto,Sul
+Vitor Hugo Vargas,3193.75,42,Crítico,Oeste
+Maria Luísa Moreira,3064.86,308,Alto,Centro
+Sra. Laura Sousa,1367.3,63,Médio,Sul
+Melina Vasconcelos,209.71,18,Baixo,Oeste
+Letícia Araújo,2303.78,109,Alto,Norte
+Alana Barbosa,1291.41,79,Alto,Oeste
+Daniel Monteiro,4844.22,213,Alto,Norte
+Sr. José Pedro Cirino,3553.93,125,Alto,Leste
+Srta. Laura Vasconcelos,559.61,14,Baixo,Oeste
+João Vitor Silva,885.45,40,Médio,Leste
+Ana Laura Cavalcante,6246.74,46,Crítico,Oeste
+Ana Carolina da Costa,916.85,58,Médio,Norte
+Nina Lima,2656.31,40,Alto,Oeste
+Sr. Breno da Cunha,2219.8,66,Alto,Oeste
+João Miguel Garcia,421.3,3,Baixo,Norte
+Pietro Pimenta,761.78,123,Baixo,Sul
+Eduardo da Luz,1913.87,79,Médio,Norte
+Isaac Freitas,490.06,12,Baixo,Centro
+Maysa das Neves,1701.64,57,Médio,Centro
+Melina da Cruz,2172.15,173,Alto,Centro
+Diogo Albuquerque,3512.46,138,Crítico,Oeste
+Milena da Costa,7139.53,1,Crítico,Sul
+Maria Isis Pacheco,2872.26,249,Alto,Norte
+Murilo Alves,2200.54,163,Alto,Leste
+Benjamin Casa Grande,614.54,10,Baixo,Oeste
+José Pedro Andrade,506.58,9,Baixo,Sul
+Alexandre da Rocha,9627.52,66,Crítico,Centro
+Vitória da Cunha,8252.83,187,Crítico,Leste
+Clara Nogueira,1071.08,130,Alto,Centro
+Luan Cardoso,2214.73,57,Médio,Sul
+Dra. Antonella Albuquerque,2977.07,58,Alto,Leste
+Benicio Costela,2073.61,115,Alto,Leste
+Mathias Monteiro,4124.48,82,Alto,Leste
+Davi Lucas Novais,418.0,17,Baixo,Sul
+Dr. André Costela,789.12,182,Baixo,Oeste
+Sra. Fernanda Vieira,6368.91,166,Crítico,Sul
+Yan Fogaça,3508.77,91,Alto,Norte
+Carolina Guerra,1850.3,119,Alto,Oeste
+Laís da Cruz,517.51,7,Baixo,Norte
+Dr. Vinicius Araújo,3380.56,67,Alto,Centro
+Mariah Sousa,2629.83,223,Alto,Oeste
+Thales Moreira,735.71,19,Baixo,Leste
+Ana Liz Ramos,1170.3,9,Médio,Centro
+Amanda Castro,878.09,178,Alto,Norte
+Arthur Miguel Siqueira,270.8,25,Baixo,Norte
+Emanuella Cirino,658.8,1,Baixo,Norte
+Mateus Araújo,914.31,8,Médio,Oeste
+Maria Luiza Gonçalves,815.86,14,Baixo,Leste
+Vicente Azevedo,1220.49,55,Médio,Oeste
+Dr. Pedro Lucas Porto,2099.63,196,Alto,Sul
+Guilherme Azevedo,2138.68,48,Alto,Oeste
+Sr. Noah Viana,9475.3,76,Crítico,Centro
+Fernanda Vargas,889.55,98,Médio,Norte
+André Camargo,2846.93,60,Crítico,Oeste
+Caleb Garcia,793.13,98,Médio,Norte
+Bárbara Brito,2227.01,106,Alto,Centro
+Olívia da Mata,1370.21,117,Alto,Oeste
+Lucas Marques,582.61,59,Médio,Oeste
+Agatha da Luz,3765.99,289,Alto,Oeste
+Rael Sousa,703.73,50,Baixo,Centro
+Ravy Carvalho,415.73,32,Médio,Sul
+Arthur Mendes,2053.84,111,Alto,Leste
+Yuri Viana,4170.4,117,Alto,Leste
+Apollo Pacheco,2986.02,119,Alto,Sul
+Julia Castro,2973.05,201,Crítico,Sul
+Hellena da Cruz,1070.49,82,Médio,Leste
+Amanda Fogaça,1770.27,331,Alto,Leste
+Julia Guerra,747.25,60,Médio,Oeste
+Marcos Vinicius Rios,414.79,37,Baixo,Centro
+Nicole Freitas,15107.59,422,Crítico,Leste
+Alana Farias,4191.99,68,Alto,Oeste
+Bryan Sá,4654.17,622,Alto,Oeste
+Jade Azevedo,15670.81,318,Crítico,Centro
+Valentina Lima,5725.6,225,Crítico,Leste
+João Sampaio,6703.66,286,Crítico,Centro
+Antônio Fernandes,2571.0,35,Alto,Centro
+Benjamim Melo,3160.49,310,Alto,Oeste
+Cauã Rocha,262.04,3,Baixo,Sul
+Dra. Maria Laura Fernandes,3733.46,61,Alto,Oeste
+Srta. Luara Viana,377.58,5,Médio,Oeste
+Srta. Rebeca Martins,1293.15,42,Médio,Centro
+Theodoro Pimenta,515.98,12,Baixo,Sul
+Clarice Sousa,917.56,64,Médio,Norte
+Maria Clara Fogaça,2621.33,37,Alto,Norte
+Emanuella Casa Grande,549.94,112,Médio,Oeste
+Diogo Siqueira,3516.16,162,Alto,Oeste
+Luiz Henrique Vargas,1266.85,44,Médio,Oeste
+Valentim Cavalcanti,1976.26,58,Alto,Centro
+Letícia Castro,11996.51,117,Crítico,Norte
+Maria Júlia Nascimento,813.33,162,Médio,Centro
+Pietro Macedo,207.61,12,Baixo,Centro
+Dr. Francisco Rodrigues,4254.68,95,Alto,Centro
+Miguel Rodrigues,1469.28,9,Médio,Sul
+Maria Júlia Lima,416.74,7,Baixo,Sul
+Antônio Mendes,868.06,29,Médio,Leste
+Ravi Almeida,2358.99,83,Alto,Sul
+Alexandre Peixoto,6325.29,347,Alto,Sul
+Joaquim Rodrigues,716.97,18,Baixo,Oeste
+Gabriel da Mata,2877.05,275,Alto,Centro
+Dr. Alexandre Araújo,1301.57,84,Alto,Norte
+Raquel Santos,568.67,8,Baixo,Sul
+Milena Campos,435.7,26,Baixo,Oeste
+Isabella Gonçalves,245.91,2,Baixo,Oeste
+Henry Gabriel Montenegro,2481.2,80,Médio,Leste
+Kaique Fernandes,275.63,10,Baixo,Sul
+Srta. Julia Pereira,856.29,54,Médio,Sul
+Caroline Jesus,2566.41,271,Alto,Oeste
+Eloah Aparecida,1252.9,34,Médio,Centro
+Benício Cavalcanti,7232.09,238,Crítico,Centro
+Dr. Luiz Felipe Peixoto,633.34,19,Baixo,Leste
+Ana Luiza da Mota,649.31,44,Médio,Sul
+Thiago Pinto,1851.89,117,Alto,Centro
+Maria Cecília Siqueira,1465.84,137,Alto,Centro
+Emilly Caldeira,202.83,168,Baixo,Oeste
+Anna Liz Araújo,575.63,5,Baixo,Sul
+Benjamin Rios,10745.02,237,Crítico,Oeste
+Caleb Aragão,1942.25,178,Alto,Leste
+Ana Cecília Pereira,10920.37,497,Crítico,Sul
+José Guerra,388.71,127,Médio,Norte
+Ana Julia Sales,7437.78,31,Crítico,Sul
+Stella Peixoto,7875.95,100,Crítico,Norte
+Sra. Mariah Pires,1288.84,78,Médio,Norte
+Vitor Hugo Vargas,205.49,18,Baixo,Sul
+Olivia Marques,7032.9,400,Crítico,Oeste
+Sr. Arthur Gabriel Porto,4890.13,316,Alto,Norte
+Elisa Machado,5892.04,324,Alto,Sul
+Gabriel Rocha,1317.14,51,Médio,Oeste
+Rafaela Barros,822.93,19,Baixo,Leste
+Ana Nogueira,757.54,24,Baixo,Leste
+Nina Oliveira,11946.55,263,Crítico,Leste
+Ana Vitória Campos,1016.35,257,Médio,Centro
+Dante da Conceição,6920.1,246,Crítico,Sul
+Maria Sophia da Rosa,4080.01,121,Alto,Leste
+Anthony Costa,250.25,17,Baixo,Norte
+Enzo Macedo,15311.89,250,Crítico,Sul
+Luiz Fernando da Luz,1244.53,85,Médio,Sul
+Paulo Lopes,817.25,248,Médio,Oeste
+Dr. José Pedro Albuquerque,698.85,69,Baixo,Sul
+Maysa Pinto,1369.1,62,Médio,Leste
+Eduarda Costa,7760.23,418,Crítico,Oeste
+Levi Barbosa,5144.08,413,Crítico,Oeste
+Noah Lima,1962.94,58,Alto,Norte
+João Lucas Sá,16039.25,379,Crítico,Sul
+Daniela Fernandes,1988.23,40,Alto,Leste
+Maria Eduarda Fogaça,753.04,1,Baixo,Norte
+Maria Helena Lopes,2642.45,139,Alto,Centro
+Rebeca Cunha,14144.68,278,Crítico,Oeste
+José Pereira,775.37,38,Baixo,Oeste
+Letícia Rocha,751.75,1,Baixo,Oeste
+Francisco Sales,3216.46,182,Crítico,Sul
+Valentina Cavalcante,10772.98,243,Crítico,Oeste
+Maria Alice Marques,6802.81,579,Alto,Centro
+Alícia Andrade,2220.96,38,Alto,Sul
+Dr. André Peixoto,587.81,10,Baixo,Centro
+João Lucas Rocha,11173.73,249,Crítico,Centro
+Dra. Julia Novais,521.57,37,Médio,Centro
+Ravi Lucca Peixoto,2309.86,49,Alto,Sul
+Luigi Borges,13482.23,230,Crítico,Sul
+Dr. Valentim Carvalho,4724.88,123,Crítico,Leste
+João Guilherme Cavalcanti,850.77,57,Médio,Leste
+Camila da Luz,4254.94,239,Crítico,Sul
+Zoe Cirino,707.59,33,Médio,Oeste
+Laura Mendes,410.53,1,Baixo,Centro
+Maria Clara Barbosa,530.24,2,Médio,Oeste
+Apollo Ribeiro,734.78,40,Baixo,Leste
+Maitê Cirino,1129.39,168,Médio,Leste
+Dr. Erick Azevedo,6160.15,287,Crítico,Sul
+Sr. Isaque Melo,474.24,103,Baixo,Sul
+Maria Luísa Monteiro,2064.22,133,Alto,Oeste
+Léo Cunha,1479.83,95,Alto,Leste
+Isadora Aragão,1152.85,88,Médio,Leste
+Pedro Lucas Novaes,2012.7,112,Alto,Leste
+Luísa Peixoto,806.52,10,Baixo,Oeste
+Augusto Sampaio,2920.0,19,Alto,Leste
+Maria Laura Albuquerque,451.37,58,Médio,Oeste
+Sra. Clara Ramos,694.08,23,Baixo,Oeste
+Ryan Pacheco,7650.52,77,Crítico,Sul
+Davi Lucca Cassiano,1987.23,131,Médio,Oeste
+Sr. Diego Porto,3494.68,160,Alto,Oeste
+Lorenzo Ribeiro,433.7,18,Baixo,Sul
+Mathias das Neves,2659.48,266,Alto,Leste
+Emanuelly Câmara,242.5,26,Baixo,Sul
+Sabrina Cunha,1671.28,18,Médio,Leste
+Srta. Sarah Abreu,340.63,19,Baixo,Leste
+Josué Albuquerque,4155.23,270,Alto,Sul
+Lívia Carvalho,223.49,20,Baixo,Oeste
+Murilo Brito,733.43,4,Médio,Sul
+Ayla Moreira,3833.26,121,Alto,Sul
+Anna Liz Aragão,680.85,45,Médio,Centro
+Ester Cunha,1786.93,73,Alto,Sul
+Heloísa Macedo,875.83,254,Baixo,Centro
+Hellena Cirino,1729.15,42,Alto,Sul
+Theo Machado,1659.66,115,Alto,Sul
+Vinicius Cardoso,505.35,18,Baixo,Leste
+Dra. Milena Alves,4232.15,349,Alto,Sul
+Lucas Mendes,1060.14,118,Alto,Leste
+Eloah Cassiano,435.98,6,Baixo,Norte
+André Cunha,2544.01,164,Alto,Leste
+Theodoro Viana,1519.97,218,Alto,Centro
+Maria Luísa Nascimento,657.6,79,Baixo,Oeste
+Fernando Alves,7042.64,255,Crítico,Sul
+Gabriel da Rosa,1329.63,54,Médio,Leste
+Benício Azevedo,1001.68,35,Alto,Leste
+Sra. Luana Lopes,1831.07,325,Médio,Norte
+Srta. Hadassa Cassiano,1976.32,167,Alto,Norte
+Emanuel Jesus,5747.4,119,Crítico,Oeste
+Kamilly Ferreira,2066.61,216,Alto,Leste
+Ravy Cirino,759.77,34,Baixo,Centro
+Antonella Leão,4251.72,294,Alto,Sul
+Dom Oliveira,1822.98,34,Alto,Norte
+Lunna Cirino,910.48,130,Médio,Centro
+Cecilia Sousa,1052.56,65,Médio,Oeste
+Lavínia Mendes,2862.41,109,Alto,Centro
+Dra. Hellena Nogueira,1581.79,114,Alto,Centro
+Zoe Marques,6740.91,164,Crítico,Norte
+André Viana,1192.45,35,Médio,Oeste
+Cecília Cunha,4931.56,179,Crítico,Oeste
+Lavínia da Mota,604.21,14,Médio,Norte
+Thales Porto,8371.79,215,Crítico,Norte
+Dra. Catarina Pacheco,689.22,72,Baixo,Oeste
+Maysa Novaes,1270.43,84,Médio,Leste
+Sr. Enzo Gabriel Aragão,8324.21,75,Crítico,Oeste
+Larissa Aragão,666.09,105,Médio,Oeste
+Ana Albuquerque,1753.21,250,Médio,Centro
+Camila Casa Grande,982.56,12,Baixo,Oeste
+Raquel Cavalcante,1501.16,7,Médio,Centro
+Sr. José Pedro Nunes,1240.35,50,Alto,Oeste
+Ravy Guerra,4563.4,132,Alto,Leste
+Ayla Teixeira,1220.86,36,Médio,Leste
+Vitor Hugo Martins,6168.03,15,Crítico,Oeste
+Brayan Nascimento,2971.13,126,Alto,Leste
+Dra. Allana Novais,2066.69,42,Alto,Leste
+Hadassa da Costa,604.63,136,Baixo,Oeste
+Antônio Melo,16138.62,250,Crítico,Sul
+Heloísa Macedo,304.69,134,Baixo,Oeste
+Ana Laura Sá,3411.98,337,Alto,Sul
+Sra. Maya da Rocha,4272.05,36,Alto,Norte
+Lara Moura,217.81,17,Baixo,Centro
+Dr. Apollo Santos,595.07,3,Baixo,Oeste
+Marcelo Almeida,847.89,15,Baixo,Sul
+Alice Carvalho,1777.49,221,Médio,Centro
+Lara Pacheco,858.89,224,Médio,Centro
+Manuella Moraes,4591.37,171,Alto,Leste
+Maysa Vieira,405.9,30,Baixo,Centro
+Asafe Machado,8989.14,58,Crítico,Leste
+Dra. Cecilia Barbosa,1873.07,11,Médio,Oeste
+Augusto Rezende,697.97,78,Médio,Sul
+Isaac Monteiro,512.12,82,Baixo,Sul
+Srta. Manuela da Mota,873.95,169,Médio,Sul
+Luigi Farias,1963.38,80,Crítico,Sul
+Aylla da Rosa,713.25,66,Baixo,Oeste
+Valentina Ribeiro,10924.06,322,Crítico,Sul
+Vinícius Porto,1451.55,60,Médio,Norte
+Luan Pinto,8565.6,80,Crítico,Leste
+Sr. Leonardo Lima,730.06,25,Baixo,Sul
+Maria Liz Araújo,1304.47,139,Médio,Sul
+Maya da Mata,2454.42,147,Alto,Oeste
+Matteo Lopes,2814.32,376,Alto,Sul
+Beatriz Ribeiro,11232.31,128,Crítico,Sul
+Srta. Nina Pinto,2899.73,159,Crítico,Norte
+Dr. Josué Novais,673.27,30,Baixo,Sul
+Nicole Casa Grande,2484.53,12,Alto,Sul
+Yan Moura,2225.62,404,Alto,Leste
+Marcos Vinicius Cunha,2325.59,62,Alto,Norte
+Raquel Aparecida,8630.69,65,Crítico,Oeste
+Fernanda Freitas,1572.74,270,Alto,Centro
+Luiz Felipe Cavalcante,1092.32,80,Médio,Norte
+Yasmin Cavalcante,591.2,144,Médio,Sul
+Dra. Heloísa Ribeiro,1373.72,71,Médio,Sul
+Dra. Valentina Cirino,456.83,13,Baixo,Oeste
+Sra. Mariana Moraes,1480.18,60,Alto,Leste
+Sra. Luana Ribeiro,167.93,8,Baixo,Oeste
+Davi Luiz da Costa,1943.24,83,Alto,Sul
+Luna Novaes,677.25,46,Médio,Centro
+Vitor Hugo Freitas,2509.18,45,Alto,Sul
+Pedro da Mota,283.94,37,Baixo,Norte
+Thales Cirino,626.48,17,Baixo,Leste
+Sr. Yago Mendes,666.73,170,Baixo,Leste
+Dante Cirino,6099.96,262,Crítico,Sul
+Calebe Guerra,2835.1,33,Alto,Centro
+Melina Santos,1261.97,51,Alto,Centro
+Gabrielly das Neves,703.34,6,Baixo,Sul
+Ágatha Rios,974.32,82,Médio,Sul
+Isaac Lopes,1977.0,52,Alto,Oeste
+Isabela Santos,316.96,6,Baixo,Sul
+Liz Moraes,257.86,14,Baixo,Sul
+Gustavo Henrique Marques,1085.02,79,Médio,Sul
+Hadassa Macedo,4868.62,225,Alto,Centro
+Felipe da Cunha,2623.1,241,Alto,Oeste
+Mathias Jesus,2154.76,60,Alto,Sul
+Valentina Ramos,1204.71,73,Médio,Oeste
+Daniel Silva,966.26,101,Médio,Centro
+João Pedro Mendes,1290.82,90,Médio,Centro
+Sr. José Miguel Guerra,8459.69,730,Alto,Leste
+Letícia Caldeira,630.75,29,Baixo,Leste
+Theo Montenegro,1162.86,159,Médio,Sul
+Henrique Moura,598.86,13,Baixo,Norte
+Sra. Isis Moraes,395.9,15,Baixo,Centro
+Raquel Sampaio,445.17,28,Baixo,Sul
+Otto Monteiro,2491.18,111,Crítico,Leste
+Pedro Miguel Almeida,302.23,30,Baixo,Centro
+José Miguel da Rocha,1507.87,138,Alto,Sul
+Valentina Mendes,224.82,1,Baixo,Norte

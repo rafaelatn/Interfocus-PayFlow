@@ -1,234 +1,162 @@
-# Backend PayFlow com FastAPI + Supabase
+# Interfocus PayFlow — Ecossistema Inteligente para Gestão e Análise de Inadimplência
 
-Esta pasta organiza o backend do PayFlow de forma simples para estudo.
+O **Interfocus PayFlow** é um ecossistema tecnológico desenvolvido para integrar armazenamento de dados, inteligência artificial, visualização geográfica e serviços de API em uma única plataforma. O projeto foi concebido com o objetivo de transformar registros de inadimplência em informações estratégicas, permitindo consultas inteligentes, análises semânticas e visualização integrada dos dados.
 
-O projeto usa:
+Mais do que um simples sistema de cadastro, o Interfocus PayFlow conecta diferentes camadas tecnológicas para criar um fluxo contínuo de processamento e análise de informações. Cada componente desempenha uma função específica dentro da arquitetura, formando um ambiente escalável e preparado para futuras aplicações envolvendo automação, análise preditiva e apoio à tomada de decisão.
 
-- FastAPI para criar a API;
-- Supabase para guardar a tabela `inadimplencias`;
-- pgvector para salvar e comparar embeddings;
-- sentence-transformers para gerar embeddings open source;
-- um script Python para gerar CSV sintetico com pandas, numpy e faker.
-- bairros reais de Marilia/SP para alimentar a coluna `bairro` e posicionar
-  clientes no mapa do frontend.
+---
 
-## Ideia principal
+# Ecossistema do Projeto
 
-Pense no sistema como uma loja:
+O ecossistema é composto por cinco camadas principais que trabalham de forma integrada para armazenar, processar, analisar e disponibilizar informações aos usuários.
 
-- o Supabase e o armario onde ficam as fichas dos clientes;
-- o SQL monta ou ajusta as prateleiras desse armario;
-- o Python gera fichas falsas para teste;
-- o FastAPI e o atendente que busca e salva informacoes;
-- o embedding e uma etiqueta numerica que ajuda a encontrar fichas parecidas.
+## Banco de Dados Inteligente
 
-## Estrutura
+O **Supabase**, baseado em PostgreSQL, atua como núcleo central da plataforma. Além do armazenamento tradicional dos registros de inadimplência, o banco também mantém os vetores semânticos utilizados pelos módulos de Inteligência Artificial.
 
-```text
-backend_payflow_fastapi/
-  app/
-    main.py
-    config.py
-    supabase_client.py
-    schemas.py
-    routes/
-      health.py
-      inadimplencia.py
-      ia.py
-    services/
-      embeddings.py
-  scripts/
-    gerar_csv_inadimplencias.py
-    preencher_embeddings.py
-  sql/
-    01_schema_supabase.sql
-  .env.example
-  requirements.txt
-```
+Essa estrutura permite armazenar simultaneamente:
 
-## 1. SQL nao e Python
+- Dados cadastrais dos clientes;
+- Informações financeiras;
+- Indicadores de risco;
+- Localização geográfica;
+- Embeddings vetoriais utilizados em buscas inteligentes.
 
-O arquivo SQL fica em:
+A extensão **pgvector** amplia as capacidades do banco, possibilitando comparações matemáticas entre vetores e consultas por similaridade semântica.
 
-```text
-sql/01_schema_supabase.sql
-```
+---
 
-Ele deve ser colado no `SQL Editor` do Supabase.
+## Camada de Inteligência Artificial
 
-Esse arquivo:
+A camada de IA é responsável por transformar informações textuais em representações numéricas chamadas **embeddings**.
 
-- habilita o `pgvector`;
-- adiciona a coluna `embedding vector(384)` se ela ainda nao existir;
-- cria um indice para busca mais rapida;
-- cria a funcao `match_inadimplencias`, usada pela rota `/ia/buscar-similares`.
+Utilizando modelos open source da biblioteca **Sentence Transformers**, cada registro armazenado no sistema passa a possuir uma representação vetorial que preserva seu significado semântico.
 
-Ele nao gera CSV.
+Isso permite que o sistema responda perguntas como:
 
-## 2. Python para gerar CSV
+- Quais clientes possuem perfis semelhantes?
+- Quais registros apresentam padrões próximos de risco?
+- Quais inadimplências se parecem com um caso específico?
+- Quais clientes podem demandar estratégias semelhantes de cobrança?
 
-O script Python fica em:
+Em vez de buscar apenas palavras exatas, o sistema passa a compreender contexto e significado.
 
-```text
-scripts/gerar_csv_inadimplencias.py
-```
+---
 
-Ele gera um arquivo:
+## Backend e Serviços de Integração
 
-```text
-csv_supabase/inadimplencia_sintetica.csv
-```
+O backend foi desenvolvido utilizando **FastAPI**, funcionando como a camada intermediária entre banco de dados, Inteligência Artificial e interfaces de usuário.
 
-Para rodar:
+Suas principais responsabilidades incluem:
 
-```powershell
-python .\scripts\gerar_csv_inadimplencias.py
-```
+- Receber requisições do frontend;
+- Validar dados;
+- Consultar o banco de dados;
+- Executar buscas semânticas;
+- Gerenciar o processamento dos embeddings;
+- Disponibilizar APIs REST documentadas automaticamente;
+- Garantir a comunicação segura entre os componentes do sistema.
 
-Depois importe o CSV no Supabase:
+Dessa forma, toda a lógica de negócio permanece centralizada e desacoplada das interfaces visuais.
 
-```text
-Table Editor > inadimplencias > Insert > Import data from CSV
-```
+---
 
-## 3. Configurar .env
+## Frontend e Visualização dos Dados
 
-Copie `.env.example` para `.env` e preencha:
+O frontend consome os serviços disponibilizados pelo backend e apresenta as informações de forma intuitiva para o usuário.
 
-```env
-SUPABASE_URL=https://SEU-PROJETO.supabase.co
-SUPABASE_SERVICE_ROLE_KEY=SUA_SERVICE_ROLE_KEY
-SUPABASE_TABLE_INADIMPLENCIAS=inadimplencias
-SUPABASE_MATCH_FUNCTION=match_inadimplencias
-```
+A interface permite:
 
-Use a `service_role key` apenas no backend. Nunca coloque essa chave no
-frontend, no Botpress ou em repositorio publico.
+- Consultar registros de inadimplência;
+- Visualizar indicadores financeiros;
+- Aplicar filtros de pesquisa;
+- Exibir clientes em mapas geográficos;
+- Apresentar resultados de buscas inteligentes;
+- Facilitar a análise e tomada de decisão.
 
-## 4. Instalar dependencias
+A utilização de bairros reais de Marília/SP possibilita a representação espacial dos registros, fornecendo uma camada adicional de análise territorial.
 
-```powershell
-pip install -r requirements.txt
-```
+---
 
-## 5. Rodar o backend
+## Geração e Simulação de Dados
 
-```powershell
-uvicorn app.main:app --reload
-```
+Para desenvolvimento, testes e validação do sistema, o projeto incorpora uma camada de geração de dados sintéticos.
 
-Depois abra a interface do PayFlow:
+Utilizando bibliotecas como:
+
+- Pandas;
+- NumPy;
+- Faker;
+
+são produzidos conjuntos de dados realistas que simulam cenários de inadimplência sem utilizar informações sensíveis de clientes reais.
+
+Essa abordagem facilita:
+
+- Testes de desempenho;
+- Validação das funcionalidades;
+- Treinamento dos modelos de IA;
+- Demonstrações do sistema;
+- Desenvolvimento seguro da aplicação.
+
+---
+
+# Fluxo Integrado do Ecossistema
+
+O funcionamento do Interfocus PayFlow pode ser representado pelo seguinte fluxo:
 
 ```text
-http://127.0.0.1:8000/
+Dados Sintéticos ou Reais
+            │
+            ▼
+      Supabase
+(PostgreSQL + pgvector)
+            │
+            ▼
+  Geração de Embeddings
+(Sentence Transformers)
+            │
+            ▼
+      Banco Vetorial
+            │
+            ▼
+         FastAPI
+(API e Regras de Negócio)
+            │
+            ▼
+        Frontend
+(Mapas, Consultas e Dashboards)
+            │
+            ▼
+         Usuário
 ```
 
-A tela busca automaticamente os registros reais pela rota
-`GET /inadimplencia?limite=1000`. Se o `.env` ainda nao estiver configurado
-ou se a tabela estiver vazia, a interface mostra uma mensagem sem preencher
-clientes ficticios.
+---
 
-Para testar as rotas no Swagger, abra:
+# Arquitetura Tecnológica
 
-```text
-http://127.0.0.1:8000/docs
-```
+| Camada | Tecnologia | Finalidade |
+|----------|------------|------------|
+| Banco de Dados | Supabase + PostgreSQL | Armazenamento dos registros |
+| Banco Vetorial | pgvector | Busca por similaridade |
+| Inteligência Artificial | Sentence Transformers | Geração de embeddings |
+| Backend | FastAPI | APIs e regras de negócio |
+| Dados Sintéticos | Pandas, NumPy e Faker | Simulação e testes |
+| Frontend | React | Interface visual |
+| Geolocalização | Mapa de Marília/SP | Visualização territorial |
 
-## 6. Preencher embeddings
+---
 
-Depois que os dados estiverem na tabela `inadimplencias`, rode:
+# Visão do Projeto
 
-```powershell
-python .\scripts\preencher_embeddings.py
-```
+O Interfocus PayFlow demonstra como tecnologias modernas de desenvolvimento podem ser integradas em um único ecossistema para criar soluções inteligentes orientadas a dados.
 
-Esse script:
+A combinação entre banco de dados relacional, armazenamento vetorial, APIs de alta performance, inteligência artificial e visualização geográfica cria uma arquitetura capaz de evoluir para aplicações mais avançadas, como:
 
-1. busca registros com `embedding = null`;
-2. monta um texto com nome, dias, risco, valor e bairro;
-3. gera o embedding com modelo open source;
-4. salva o vetor na coluna `embedding`.
+- Classificação automática de risco;
+- Sistemas inteligentes de cobrança;
+- Recomendação de estratégias de recuperação de crédito;
+- Modelos preditivos de inadimplência;
+- Dashboards analíticos em tempo real;
+- Assistentes inteligentes para análise financeira.
 
-## 7. Atualizar bairros para Marilia/SP
-
-Se a tabela ja existe no Supabase e ainda usa bairros/regioes genericas como
-`Norte`, `Sul` ou `Centro`, rode:
-
-```powershell
-python .\scripts\atualizar_bairros_marilia.py --limite 200
-```
-
-O script troca a coluna `bairro` por bairros reais de Marilia/SP, escolhidos
-aleatoriamente. Por padrao ele tambem limpa a coluna `embedding`, porque o
-texto usado no machine learning inclui o bairro. Depois rode novamente o
-treino:
-
-```powershell
-python .\scripts\preencher_embeddings.py
-```
-
-O frontend reconhece esses bairros e coloca os pontos no mapa de Marilia.
-
-## 8. Ensinar e testar o machine learning
-
-Neste projeto, "ensinar" significa gerar embeddings para os registros da
-tabela. O modelo open source ja vem treinado; o seu dado entra no sistema
-quando cada cliente vira um vetor salvo no Supabase.
-
-Para separar 70% dos dados para treino e 30% para teste:
-
-```powershell
-python .\scripts\treinar_testar_split_70_30.py --limite 1000
-```
-
-Esse script deixa os 70% de treino com `embedding` preenchido e reserva os
-30% de teste com `embedding = null`. Depois ele gera consultas a partir dos
-registros de teste e mede se a busca encontra clientes parecidos dentro do
-conjunto treinado.
-
-Pelo terminal:
-
-```powershell
-python .\scripts\treinar_testar_machine_learning.py
-```
-
-Pelo Swagger:
-
-```text
-POST /ia/treinar-embeddings
-POST /ia/testar-machine-learning
-```
-
-## 9. Buscar dados parecidos
-
-Use a rota:
-
-```text
-POST /ia/buscar-similares
-```
-
-Exemplo de corpo:
-
-```json
-{
-  "consulta": "clientes criticos com alto valor em atraso",
-  "limite": 5
-}
-```
-
-O backend transforma a frase em embedding e chama a funcao SQL
-`match_inadimplencias`.
-
-## Ordem recomendada
-
-1. Rodar `sql/01_schema_supabase.sql` no SQL Editor.
-2. Rodar `python .\scripts\gerar_csv_inadimplencias.py`.
-3. Importar o CSV na tabela `inadimplencias`.
-4. Criar o `.env`.
-5. Rodar `pip install -r requirements.txt`.
-6. Se a tabela ja existir, rodar `python .\scripts\atualizar_bairros_marilia.py --limite 200`.
-7. Rodar `python .\scripts\preencher_embeddings.py`.
-8. Rodar `python .\scripts\treinar_testar_machine_learning.py`.
-9. Rodar `uvicorn app.main:app --reload`.
-10. Abrir a interface em `/`.
-11. Testar a API no Swagger em `/docs`.
+Dessa forma, o projeto deixa de ser apenas uma aplicação de cadastro e passa a representar uma plataforma integrada para exploração, análise e geração de conhecimento a partir de dados financeiros.

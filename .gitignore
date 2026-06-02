@@ -1,0 +1,35 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Logs and local runtime files
+*.log
+uvicorn.*.log
+
+# Test and tooling cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local generated data
+csv_supabase/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

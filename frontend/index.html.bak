@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PayFlow Frontend Simples</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 32px;
+        max-width: 760px;
+      }
+
+      input,
+      button {
+        display: block;
+        margin: 8px 0;
+        padding: 10px;
+        width: 100%;
+      }
+
+      pre {
+        background: #f2f2f2;
+        padding: 16px;
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>PayFlow Frontend Simples</h1>
+
+    <p>
+      Esta tela mostra como um frontend pode chamar o backend FastAPI usando
+      fetch.
+    </p>
+
+    <label>Dias de inadimplencia</label>
+    <input id="dias" type="number" value="40" />
+
+    <label>Valor em aberto</label>
+    <input id="valor" type="number" value="1500" />
+
+    <button onclick="preverRisco()">Prever risco com scikit-learn</button>
+
+    <pre id="resultado">Clique no botao para testar.</pre>
+
+    <script>
+      async function preverRisco() {
+        const resposta = await fetch("http://127.0.0.1:8000/ml/prever-risco", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            dias_inadimplencia: Number(document.getElementById("dias").value),
+            valor_inadimplencia: Number(document.getElementById("valor").value),
+          }),
+        });
+
+        const dados = await resposta.json();
+        document.getElementById("resultado").textContent = JSON.stringify(
+          dados,
+          null,
+          2
+        );
+      }
+    </script>
+  </body>
+</html>

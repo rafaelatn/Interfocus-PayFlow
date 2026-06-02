@@ -1,11 +1,12 @@
 from fastapi import APIRouter, HTTPException
 
 from app.config import settings
-from app.schemas import InadimplenciaCreate
+from app.schemas import HistoricoCobrancaCreate, InadimplenciaCreate
 from app.supabase_rest import insert_row, select_rows
 
 
 router = APIRouter(prefix="/inadimplencia", tags=["Inadimplencia"])
+HISTORICO_COBRANCAS_TABLE = "historico_cobrancas"
 
 
 @router.post("")
@@ -39,3 +40,40 @@ def listar_inadimplencias(limite: int = 20):
         raise HTTPException(status_code=503, detail=str(exc)) from exc
 
     return data
+
+
+@router.get("/historico")
+def listar_historico_cobrancas(
+    limite: int = 50,
+    inadimplencia_id: int | None = None,
+):
+    filters = {}
+    if inadimplencia_id is not None:
+        filters["inadimplencia_id"] = f"eq.{inadimplencia_id}"
+
+    try:
+        return select_rows(
+            HISTORICO_COBRANCAS_TABLE,
+            "id,inadimplencia_id,canal,mensagem,status,observacao,created_at",
+            limit=limite,
+            filters=filters,
+            order="created_at.desc",
+        )
+    except RuntimeError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+
+
+@router.post("/historico")
+def criar_historico_cobranca(payload: HistoricoCobrancaCreate):
+    try:
+        data = insert_row(
+            HISTORICO_COBRANCAS_TABLE,
+            payload.model_dump(mode="json", exclude_none=True),
+        )
+    except RuntimeError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+
+    return {
+        "message": "Historico registrado com sucesso",
+        "data": data,
+    }

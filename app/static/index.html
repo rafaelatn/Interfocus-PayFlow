@@ -612,7 +612,7 @@ let CLIENTES = [];
 let origemDados = 'Supabase';
 let erroDados = '';
 
-const HISTORICO = [];
+let HISTORICO = [];
 
 /* ══════════════════════════════════════════════════════════════
    ESTADO
@@ -622,6 +622,7 @@ let termoBusca   = '';
 let mapaFiltro   = 'todos';
 let leafletMap   = null;   // instância única — nunca recriada
 let marcadores   = [];
+let clienteAtualIdx = null;
 
 /* ══════════════════════════════════════════════════════════════
    UTILS
@@ -757,6 +758,60 @@ async function carregarClientesSupabase() {
     origemDados = 'Supabase indisponível';
     erroDados = err.message || 'Não foi possível carregar os dados do Supabase';
   }
+}
+
+function limparAspasMensagem(valor) {
+  return String(valor || '').replace(/^"+|"+$/g, '');
+}
+
+function formatarDataHora(valor) {
+  if (!valor) return 'Agora';
+  const data = new Date(valor);
+  if (Number.isNaN(data.getTime())) return String(valor);
+  return data.toLocaleString('pt-BR', {
+    day:'2-digit',
+    month:'2-digit',
+    year:'numeric',
+    hour:'2-digit',
+    minute:'2-digit',
+  });
+}
+
+function normalizarHistorico(item) {
+  const canal = item.canal || 'Contato';
+  const status = item.status || 'registrado';
+  return {
+    id: item.id,
+    inadimplencia_id: Number(item.inadimplencia_id),
+    txt: `<strong>${canal}</strong> · ${limparAspasMensagem(item.mensagem)}`,
+    cor: status.toLowerCase() === 'enviado' ? '#30C98A' : '#F5A520',
+    data: `${formatarDataHora(item.created_at)} · ${status}`,
+  };
+}
+
+async function carregarHistoricoSupabase() {
+  try {
+    const resp = await fetch('/inadimplencia/historico?limite=100', {headers:{Accept:'application/json'}});
+    if (!resp.ok) throw new Error('Resposta HTTP ' + resp.status);
+    const dados = await resp.json();
+    HISTORICO = Array.isArray(dados) ? dados.map(normalizarHistorico) : [];
+  } catch (err) {
+    console.error('Erro ao carregar histórico do Supabase:', err);
+    HISTORICO = [];
+  }
+}
+
+function renderHistorico(clienteId = null) {
+  const container = document.getElementById('cob-hist');
+  if (!container) return;
+  const id = clienteId == null ? null : Number(clienteId);
+  const lista = id == null
+    ? HISTORICO
+    : HISTORICO.filter(h => h.inadimplencia_id === id);
+
+  container.innerHTML = lista.length
+    ? lista.map(h=>`<div class="fi"><div class="fd-dot" style="background:${h.cor}"></div><div><div class="fd-txt">${h.txt}</div><div class="fd-time">${h.data}</div></div></div>`).join('')
+    : '<div style="font-size:12px;color:var(--t3);padding:8px 0;">Nenhum contato registrado para este cliente.</div>';
 }
 
 function montarAtividades() {
@@ -1065,6 +1120,7 @@ function filtrar(r,el){ filtroAtivo=r; document.querySelectorAll('.pills .pill')
 ══════════════════════════════════════════════════════════════ */
 function abrirCliente(idx) {
   const c = CLIENTES[idx];
+  clienteAtualIdx = idx;
   const av = document.getElementById('cob-av');
   av.textContent = c.iniciais;
   av.style.background = `linear-gradient(135deg,${c.corA},${c.corB})`;
@@ -1086,6 +1142,7 @@ function abrirCliente(idx) {
     ch.classList.toggle('sel', i===0);
     const s = ch.querySelector('svg'); if(s) s.style.color = i===0 ? 'var(--brand)' : '';
   });
+  renderHistorico(c.id);
   irPara('cobranca');
 }
 
@@ -1095,12 +1152,43 @@ function selecionarCanal(el) {
   const s = el.querySelector('svg'); if(s) s.style.color='var(--brand)';
 }
 
-function enviar() {
+async function enviar() {
   const btn = document.getElementById('btn-enviar');
   if (btn.classList.contains('sent')) return;
   const canal = document.querySelector('.channel.sel .ch-name')?.textContent || 'e-mail';
+  const cliente = CLIENTES[clienteAtualIdx] || null;
   btn.classList.add('sent');
   btn.innerHTML = `<svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Enviado com sucesso`;
+
+  if (cliente?.id) {
+    try {
+      const resp = await fetch('/inadimplencia/historico', {
+        method: 'POST',
+        headers: {'Content-Type':'application/json', Accept:'application/json'},
+        body: JSON.stringify({
+          inadimplencia_id: Number(cliente.id),
+          canal,
+          mensagem: limparAspasMensagem(cliente.msg),
+          status: 'enviado',
+        }),
+      });
+      if (!resp.ok) throw new Error('Resposta HTTP ' + resp.status);
+      const resultado = await resp.json();
+      const novoRegistro = Array.isArray(resultado.data) ? resultado.data[0] : null;
+      if (novoRegistro) {
+        HISTORICO = [normalizarHistorico(novoRegistro), ...HISTORICO];
+      } else {
+        await carregarHistoricoSupabase();
+      }
+      cliente.tent = Number(cliente.tent || 0) + 1;
+      document.getElementById('cob-tent').textContent = cliente.tent;
+      renderHistorico(cliente.id);
+    } catch (err) {
+      console.error('Erro ao registrar histórico:', err);
+      btn.innerHTML = `<svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Enviado localmente`;
+    }
+  }
+
   document.getElementById('modal-nome').textContent  = document.getElementById('cob-nome').textContent;
   document.getElementById('modal-canal').textContent = canal.toLowerCase();
   document.getElementById('modal').style.display     = 'flex';
@@ -1237,6 +1325,7 @@ function mapFiltrar(r, el) {
 ══════════════════════════════════════════════════════════════ */
 async function inicializar() {
   await carregarClientesSupabase();
+  await carregarHistoricoSupabase();
 
   const total  = CLIENTES.reduce((s,c) => s+c.valorNum, 0);
   const atraso = CLIENTES.filter(c => c.dias > 0).length;
@@ -1279,9 +1368,7 @@ async function inicializar() {
     ? atividades.map(a=>`<div class="fi"><div class="fd-dot" style="background:${a.cor}"></div><div><div class="fd-txt">${a.txt}</div><div class="fd-time">${a.tempo}</div></div></div>`).join('')
     : '<div style="font-size:12px;color:var(--t3);padding:8px 0;">Sem registros carregados do Supabase.</div>';
 
-  document.getElementById('cob-hist').innerHTML = HISTORICO.length
-    ? HISTORICO.map(h=>`<div class="fi"><div class="fd-dot" style="background:${h.cor}"></div><div><div class="fd-txt">${h.txt}</div><div class="fd-time">${h.data}</div></div></div>`).join('')
-    : '<div style="font-size:12px;color:var(--t3);padding:8px 0;">Histórico ainda não existe na tabela do Supabase.</div>';
+  renderHistorico();
 
   renderTabela();
 }

@@ -20,6 +20,14 @@ class InadimplenciaResponse(InadimplenciaCreate):
     id: str
 
 
+class HistoricoCobrancaCreate(BaseModel):
+    inadimplencia_id: int = Field(..., examples=[1])
+    canal: str = Field(default="E-mail", examples=["E-mail"])
+    mensagem: str = Field(..., examples=["Cliente avisado sobre atraso."])
+    status: str = Field(default="enviado", examples=["enviado"])
+    observacao: Optional[str] = None
+
+
 class BuscaSimilarRequest(BaseModel):
     # Texto livre usado para buscar clientes parecidos semanticamente.
     consulta: str = Field(

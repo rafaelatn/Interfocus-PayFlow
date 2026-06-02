@@ -41,11 +41,14 @@ def select_rows(
     columns: str,
     limit: int | None = None,
     filters: dict[str, str] | None = None,
+    order: str | None = None,
 ) -> list[dict]:
     table_name = quote(table, safe="")
     query = [f"select={columns}"]
     if limit is not None:
         query.append(f"limit={limit}")
+    if order:
+        query.append(f"order={quote(order, safe='.,')}")
     for field, expression in (filters or {}).items():
         query.append(f"{quote(field, safe='')}={expression}")
 
